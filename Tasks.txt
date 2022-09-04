@@ -1,0 +1,16 @@
+1. Preparing html template
+2. spin up django
+3. attach database
+4. Have cms for html template through django
+5. Practice above 4 with new html template.
+
+set permission for powershell:   Set-ExecutionPolicy RemoteSigned
+
+1. Django installation: python -m pip install Django
+2. Create project create: django-admin startproject raviwebsite
+3. To create new application: cd your_project / python manage.py startapp your_app_name
+4. if you create new model, do 
+        1. add your app in settings.py
+        2. python manage.py makemigrations
+        3. python manage.py migrate
+5. 
